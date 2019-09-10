@@ -1,7 +1,7 @@
 {
     "app-id": "org.wxhexeditor.wxHexEditor",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "wxHexEditor",
     "rename-icon": "wxHexEditor",
@@ -68,6 +68,10 @@
                 {
                     "type": "patch",
                     "path": "disable-unavailable.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "use-python-3.patch"
                 }
             ]
         }

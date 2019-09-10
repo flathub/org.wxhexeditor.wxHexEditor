@@ -1,0 +1,11 @@
+diff --git a/udis86/m4/ax_with_python.m4 b/udis86/m4/ax_with_python.m4
+index e109928..94f5111 100644
+--- a/udis86/m4/ax_with_python.m4
++++ b/udis86/m4/ax_with_python.m4
+@@ -28,5 +28,5 @@
+ #   and this notice are preserved.
+ 
+ AC_DEFUN([AX_WITH_PYTHON],[
+-    AX_WITH_PROG(PYTHON,python,$1,$2)
++    AX_WITH_PROG(PYTHON,python3,$1,$2)
+ ])
