@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 frhun -->
 <component type="desktop-application">
   <id>org.wxhexeditor.wxHexEditor</id>
-  <metadata_license>CC-BY-SA-3.0</metadata_license>
+  <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <name>wxHexEditor</name>
   <summary>Advanced large file hex editor</summary>
@@ -29,19 +28,20 @@
   <launchable type="desktop-id">org.wxhexeditor.wxHexEditor.desktop</launchable>
   
   <screenshots>
-    <screenshot type="default" width="913" height="662">
+    <screenshot type="default">
       <image>
-           http://www.wxhexeditor.org/images/screenshot.png
-        </image>
-      <caption/>
+        https://raw.githubusercontent.com/frhun/wxHexEditor/0a75a455a2df57402f8d9d62837f0e9593797dc9/contrib/screenshots/screenshot-1.png
+      </image>
     </screenshot>
-    <screenshot width="641" height="511">
-      <image>http://wiki.wxhexeditor.org/images/8/8a/XOR_ViewThru.gif</image>
-      <caption>XOR overlay mode</caption>
+    <screenshot>
+      <image>
+        https://raw.githubusercontent.com/frhun/wxHexEditor/0a75a455a2df57402f8d9d62837f0e9593797dc9/contrib/screenshots/screenshot-2.png
+      </image>
     </screenshot>
-    <screenshot width="1094" height="449">
-      <image>http://wiki.wxhexeditor.org/images/5/56/Compare_Files.png</image>
-      <caption>Diff compare mode</caption>
+    <screenshot>
+      <image>
+        https://raw.githubusercontent.com/frhun/wxHexEditor/0a75a455a2df57402f8d9d62837f0e9593797dc9/contrib/screenshots/screenshot-3.png
+      </image>
     </screenshot>
   </screenshots>
   
@@ -59,8 +59,6 @@
   </releases>
   
   <translation type="gettext" />
-  
-  <update_contact>s_AT_frhun.de</update_contact>
   
   <developer_name>Erdem U. Altinyurt</developer_name>
   <url type="bugtracker">https://github.com/EUA/wxHexEditor/issues</url>
