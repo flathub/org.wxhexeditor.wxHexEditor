@@ -1,0 +1,22 @@
+From d0fa3ddc3e9dc9b05f90b650991ef134f74eed01 Mon Sep 17 00:00:00 2001
+From: "Erdem U. Altinyurt" <spamjunkeater@gmail.com>
+Date: Thu, 4 Jan 2018 04:31:18 +0300
+Subject: [PATCH] Fixed Mageia armv7hl compilation.
+
+---
+ src/HexEditorCtrl/wxHexCtrl/wxHexCtrl.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/HexEditorCtrl/wxHexCtrl/wxHexCtrl.cpp b/src/HexEditorCtrl/wxHexCtrl/wxHexCtrl.cpp
+index 3bdd3eb..6ac5c3b 100644
+--- a/src/HexEditorCtrl/wxHexCtrl/wxHexCtrl.cpp
++++ b/src/HexEditorCtrl/wxHexCtrl/wxHexCtrl.cpp
+@@ -2365,7 +2365,7 @@ cpformat(a)
+ 			else if(i==0x7E)
+ 				newCP += wxChar(0x203E);//Overline
+ 			else if(i<0x80)
+-				newCP += ((i<0x20 || i==0x7F)	? '.' : wxChar(i));
++				newCP += ((i<0x20 || i==0x7F) ? wxChar('.') : wxChar(i));
+ 			else if( i>=0xA1 && i<0xE0)
+ 				newCP += wxChar(i-0xA0+0xFF60);
+ 			else

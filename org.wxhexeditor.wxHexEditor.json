@@ -72,6 +72,16 @@
                 {
                     "type": "patch",
                     "path": "use-python-3.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "wxhexeditor-d0fa3dd.patch"
+                },
+                {
+                    "type": "shell",
+                    "commands": [
+                        "cp -p /usr/share/automake-*/config.{sub,guess} mhash"
+                    ]
                 }
             ]
         }
