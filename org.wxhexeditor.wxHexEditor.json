@@ -1,13 +1,14 @@
 {
     "app-id": "org.wxhexeditor.wxHexEditor",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "wxHexEditor",
     "rename-icon": "wxHexEditor",
     "rename-desktop-file": "wxHexEditor.desktop",
     "finish-args": [
-        "--share=ipc", "--socket=x11",
+        "--share=ipc",
+        "--socket=x11",
         "--filesystem=home",
         "--device=all"
     ],
