@@ -17,11 +17,11 @@
       <li>Colorized overlays</li>
     </ul>
     <p xml:lang="de_DE">Besondere Funktionen:</p>
-    <ul xml:lang="de_DE">
-      <li>Bearbeiten von sehr großen Dateien (größer als RAM)</li>
-      <li>Vergleichen von Dateien</li>
-      <li>direktes bearbeiten XOR chiffrierter Dateien</li>
-      <li>eingefärbte Markierungen</li>
+    <ul>
+      <li xml:lang="de_DE">Bearbeiten von sehr großen Dateien (größer als RAM)</li>
+      <li xml:lang="de_DE">Vergleichen von Dateien</li>
+      <li xml:lang="de_DE">direktes bearbeiten XOR chiffrierter Dateien</li>
+      <li xml:lang="de_DE">eingefärbte Markierungen</li>
     </ul>
   </description>
   
@@ -49,16 +49,9 @@
   
   <content_rating type="oars-1.1" />
   
-  <kudos>
-    <kudo>UserDocs</kudo>
-    <kudo>HiDpiIcon</kudo>
-  </kudos>
-  
   <releases>
     <release version="0.24" date="2017-12-31"/>
   </releases>
-  
-  <translation type="gettext" />
   
   <developer_name>Erdem U. Altinyurt</developer_name>
   <url type="bugtracker">https://github.com/EUA/wxHexEditor/issues</url>
